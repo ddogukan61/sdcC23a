@@ -1,0 +1,345 @@
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("2.2IIIIII95IIIIIIII88IIIIII74e-41;1638IIII4D;16384ID;16384IIIID;16IIIIIIIIIIII384D;1IIIIIIII6384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() == 0 then
+    gg.alert("❎ Antiban başarısız. Oyunu yeniden başlat ❎")
+  else
+    gg.searchNumber("2.IIIIIIIIIII29588IIIIIIIIIIIIII74e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    resultsCount = gg.getResultCount()
+    results = gg.getResults(resultsCount)
+    for i = 1, resultsCount do
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 16384,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 65536,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 252,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 236,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 232,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 72,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 68,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 64,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 48,
+          flags = 4,
+          freeze = true,
+          value = 119
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 64,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 68,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 100,
+          flags = 4,
+          freeze = true,
+          value = 4451
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 512,
+          flags = 4,
+          freeze = true,
+          value = 0
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 540,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 544,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 548,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 252,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 236,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 232,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 72,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 68,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address - 64,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 48,
+          flags = 4,
+          freeze = true,
+          value = 119
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 64,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 68,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 100,
+          flags = 4,
+          freeze = true,
+          value = 4451
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 512,
+          flags = 4,
+          freeze = true,
+          value = 0
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 540,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 544,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 548,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 65536,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = results[i].address + 16384,
+          flags = 4,
+          freeze = true,
+          value = -1
+        }
+      })
+    end
+    gg.removeListItems((gg.getListItems()))
+    gg.clearResults()  
+
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.alert("Iyi eglenceler")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.getResults(250)
+gg.setVisible(false)
+gg.editAll("67109633", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber("67109377", gg.TYPE_DWORD)
+gg.getResults(200)
+gg.setVisible(false)
+gg.editAll("67109377", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+else
+  gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  resultsCount = gg.getResultCount()
+  results = gg.getResults(resultsCount)
+  for i = 1, resultsCount do
+    gg.addListItems({
+      [1] = {
+        address = results[i].address + 48,
+        flags = 4,
+        freeze = true,
+        value = 70032
+      }
+    })
+    gg.addListItems({
+      [1] = {
+        address = results[i].address + 100,
+        flags = 4,
+        freeze = true,
+        value = 4451
+      }
+    })
+  end
+end
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("16610;8388646;8388805", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("30", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("257D;0~99999F;1D;0D::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.searchNumber("0~9999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("16384", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+else
+  gg.searchNumber("16384", gg.TYPE_DWORD)
+  resultsCount = gg.getResultCount()
+  results = gg.getResults(resultsCount)
+  for i = 1, resultsCount do
+  end
+end
+gg.addListItems((gg.getResults(100)))
+gg.clearResults()
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.alert("    🌚 🅰🅽🆃🅸🅱🅰🅽 🅰🅲🅸🅻🅳🅸 🌚\n              🇧 🇾  🇦 🇧 🇬 🇪 🇳 🇨 ")
+    gg.clearResults()
+    end
